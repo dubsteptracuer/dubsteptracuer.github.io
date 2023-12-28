@@ -1,0 +1,136 @@
+body {
+    font-family: Georgia, sans-serif;
+    background-color:rgb(206, 206, 206);
+    margin: 10px;
+    padding: 10px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.header img {
+    width: 200px;
+    height: auto;
+    max-width: 100%;
+}
+
+.main-title {
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.main-title h1 {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color:rgba(0, 0, 0, 0.904);
+    color: white;
+    font-size: 50px;
+}
+
+.main-title img {
+    max-width: 100%;
+    height: auto;
+}
+
+.button-link {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    background-color: #000000;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    font-family: Georgia;
+    position: fixed;
+    top: 20px;
+    right: 30px;
+}
+
+.button-link:hover {
+    background-color: #ffffff;
+    color:black;
+}
+
+.parent-index {
+    display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            gap: 10px;
+             margin: 20px;
+}
+
+.parent-index a {
+    display: inline-block;
+    padding: 50px 30px;
+    text-decoration: none;
+    background-color: #000000;
+    color: #fff;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    font-family: Georgia;
+    text-align: center;
+}
+
+.parent-index a:hover {
+    background-color: #ffffff;
+    color:black;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    justify-content: center;
+    font-size: 24px;
+}
+
+.search-container label {
+    margin-right: 10px;
+}
+
+.search-container input {
+    width: 300px;
+    height: 40px;
+    font-size: 20px;
+}
+
+#complete-index-title {
+    margin-top: 60px;
+}
+
+.complete-index {
+    body {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+        padding: 20px;
+    }
+
+    #group,
+    #procurement,
+    #sales,
+    #recovery,
+    #auction,
+    #bsa,
+    #marketing,
+    #integration,
+    #surplus {
+        border: 1px solid #ddd;
+        padding: 10px;
+    }
+
+    ul {
+        padding: 0;
+        list-style-type: none;
+    }
+
+    li {
+        margin-bottom: 5px;
+    }
+}
